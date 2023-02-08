@@ -92,19 +92,19 @@
 
 //----------------------------------------------------------------------------------------------------------------------
 // є масив
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 31, status: true}
-];
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 31, status: true}
+// ];
 
 // за допомоги циклу вивести:
 //
@@ -112,7 +112,7 @@ let users = [
 // користувачів зі статусом false
 // користувачів які старші за 30 років
 
-for (const user of users) {
+// for (const user of users) {
 
     // - користувачів зі статусом true
 
@@ -123,26 +123,27 @@ for (const user of users) {
 //         }
 //         document.write(`</ul>`);
 //     }
-// }
+// };
 
 
 // - користувачів зі статусом false
-
-    if (!user.status) {
-        document.write(`<ul>`)
-        for (const userStatus in user) {
-            document.write(`<li>${user[userStatus]}</li>`);
-        }
-        document.write(`</ul>`)
-    }
-}
+//
+//     if (!user.status) {
+//         document.write(`<ul>`)
+//         for (const userStatus in user) {
+//             document.write(`<li>${user[userStatus]}</li>`);
+//         }
+//         document.write(`</ul>`)
+//     }
+// };
 
 // - користувачів які старші за 30 років
-
-// if (user.age > 30){
-//     document.write(`<ul>`)
-//     for (const userKey in user) {
-//         document.write(`<li>${user[userKey]}</li>`);
+//
+//     if (user.age > 30) {
+//         document.write(`<ul>`)
+//         for (const userKey in user) {
+//             document.write(`<li>${user[userKey]}</li>`);
+//         }
+//         document.write(`</ul>`)
 //     }
-//     document.write(`</ul>`)
-// }
+// };
